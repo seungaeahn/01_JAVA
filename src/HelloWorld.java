@@ -18,7 +18,10 @@
 	
 	String[] args: 
 		String문자열, [] 배열을 뜻하고, args라는 이름의 문자열 배열을 사용한다.
-		메인 함수에서 String[] args 생략할 수 없는 이유는 프로그램이 시작되는 
+		메인 함수에서 String[] args 생략할 수 없는 이유는 프로그램이 시작되는 부분이기 때문에 외부에서 값을 받아야 하기 때문
+		
+		System.out.print(); : 괄호 안 내용을 단순히 출력 
+		System.out.println(); : 줄바꿈 문자 포함돼서 출력 후 한 줄 띄워짐 
 **/
 public class HelloWorld {
 	public static void main(String[] args) {
@@ -28,5 +31,20 @@ public class HelloWorld {
 		
 		System.out.print("줄바꿈 없는 프린트!");
 		System.out.print("진짜로 줄을 안바꿉니다.");
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
